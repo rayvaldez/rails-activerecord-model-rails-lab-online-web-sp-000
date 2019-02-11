@@ -1,4 +1,4 @@
-class Student
+class Student < ActiveRecord::Base
   def concatenate
     binding.pry
   end
